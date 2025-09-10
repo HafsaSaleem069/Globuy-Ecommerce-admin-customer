@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: "/register/:path*",
-        destination: "https://your-backend-url.onrender.com/register/:path*", // <-- Replace with Railway/Render/Backend URL
+        destination: "globuy-ecommerce-admin-customer-production.up.railway.app", // <-- Replace with Railway/Render/Backend URL
       },
     ];
   },

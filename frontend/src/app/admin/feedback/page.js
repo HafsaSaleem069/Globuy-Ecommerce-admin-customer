@@ -295,7 +295,7 @@ export default function FeedbackPage() {
                 <div className="border-t border-slate-600/30 pt-4">
                   <p className="text-slate-400 text-sm mb-2 font-medium">Original Message:</p>
                   <p className="text-slate-200 leading-relaxed bg-slate-700/30 p-4 rounded-lg border border-slate-600/20">
-                    "{selectedFeedback.message}"
+                    {selectedFeedback.message}
                   </p>
                 </div>
               </div>

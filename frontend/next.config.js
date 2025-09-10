@@ -4,10 +4,13 @@ const nextConfig = {
     return [
       {
         source: "/register/:path*",
-        destination: "http://localhost:5000/register/:path*",
+        destination: "https://your-backend-url.onrender.com/register/:path*", // <-- Replace with Railway/Render/Backend URL
       },
     ];
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;

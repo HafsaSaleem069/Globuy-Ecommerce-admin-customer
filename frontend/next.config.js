@@ -4,7 +4,8 @@ const nextConfig = {
     return [
       {
         source: "/register/:path*",
-        destination: "https://globuy-ecommerce-admin-customer-production.up.railway.app/register/:path*", // <-- Replace with Railway/Render/Backend URL
+        destination:
+          "https://globuy-ecommerce-admin-customer-production.up.railway.app/register/:path*", // <-- Replace with Railway/Render/Backend URL
       },
     ];
   },
